@@ -13,7 +13,7 @@ For example, if the parameters passed are ([2, 2, 3], [5, 4, 1]), the volume of 
 Your function will be tested with pre-made examples as well as random ones. */
 
 
-// MY SOLUTION
+// MY ORIGINAL SOLUTION
 function findDifference(a, b) {
   let volumeOfA = a.reduce((acc, c) => acc * c, 1);
   let volumeOfB = b.reduce((acc, c) => acc * c, 1);
@@ -23,3 +23,7 @@ function findDifference(a, b) {
     return volumeOfB - volumeOfA;
   }
 }
+
+
+// MR REFACTORED SOLUTION
+const findDifference = (a, b) => Math.abs(a.reduce((acc, c) => acc * c, 1) - b.reduce((acc, c) => acc * c, 1));
