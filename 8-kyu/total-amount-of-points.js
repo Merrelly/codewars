@@ -26,8 +26,6 @@ function points(games) {
       total += 3;
     }else if(Number(games[i].charAt(0)) === Number(games[i].charAt(2))){
       total += 1;
-    }else if(Number(games[i].charAt(0)) < Number(games[i].charAt(2))){
-      total += 0;
     }
   }
   return total;
