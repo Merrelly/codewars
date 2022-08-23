@@ -1,4 +1,5 @@
 #  Codewars
+<img src="https://www.codewars.com/users/Merrelly/badges/large">
 My solutions to Codewars challenges.
 
 ## HOW IT'S MADE
