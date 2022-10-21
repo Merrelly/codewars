@@ -5,4 +5,4 @@ My solutions to daily Codewars challenges. These are done as a way to test and r
 ## HOW IT'S MADE
 **Tech used:** <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript"/>
 
-<br>I aim to push at least 1 solution every day.<br>
+As I'm currently stydying JavaScript all problems will be solved using that language but I hope to utilise more languages as my skills develop.
